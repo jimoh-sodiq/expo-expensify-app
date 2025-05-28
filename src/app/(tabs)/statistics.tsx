@@ -1,12 +1,15 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import { StyleSheet, Text, View } from "react-native";
+import React from "react";
+import ScreenWrapper from "@/components/ScreenWrapper";
 
 export default function StatisticsTab() {
   return (
-    <View>
-      <Text>StatisticsTab</Text>
-    </View>
-  )
+    <ScreenWrapper>
+      <View>
+        <Text>statistics</Text>
+      </View>
+    </ScreenWrapper>
+  );
 }
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({});

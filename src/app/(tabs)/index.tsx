@@ -15,7 +15,7 @@ export default function HomeTab() {
     await signOut(auth)
   }
   return (
-    <ScreenWrapper style={{ backgroundColor: "white" }}>
+    <ScreenWrapper>
       <View>
         <CustomButton onPress={handleLogout}>
           <Typo color={colors.black}>Logout {user.user?.email}</Typo>
