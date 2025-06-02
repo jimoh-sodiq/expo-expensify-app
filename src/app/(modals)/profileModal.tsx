@@ -49,10 +49,8 @@ export default function profileModal() {
       quality: 0.5,
     });
 
-    console.log(result);
-
     if (!result.canceled) {
-        setUserData({...userData, image: result.assets[0].uri})
+        setUserData({...userData, image: result.assets[0]})
     }
   };
 
